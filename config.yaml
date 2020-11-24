@@ -1,7 +1,0 @@
-# Postgres Default Configuration.
-
-host "ec2-54-165-36-134.compute-1.amazonaws.com",
-port
-user ,
-password ,
-dbname

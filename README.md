@@ -11,3 +11,7 @@ $ ruby client.rb
   4. database name
 
 ## Test cases are written into the Rspec.
+
+## Output of the program:
+
+![Alt text](https://github.com/shekhar-patil/database_adptor/blob/master/images/Screenshot-from-2020-11-24-12-35-10.png)
