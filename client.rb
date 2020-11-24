@@ -24,16 +24,16 @@ end
 
 # In future we can add more adpator to connect different database
 
-puts 'Enter user'
+puts "\nEnter user:"
 user = gets.chomp
 
-puts 'Enter password'
+puts "\nEnter password:"
 password = gets.chomp
 
-puts 'Enter host path'
+puts "\nEnter host path:"
 host = gets.chomp
 
-puts 'Enter database name'
+puts "\nEnter database name:"
 dbname = gets.chomp
 
 client = Client.new(host, user, password, dbname)
@@ -53,7 +53,7 @@ while(retry_attempt)
 
   puts pg.execute(connect, query).to_a
 
-  puts '\nDo you want to continue y/n'
+  puts "\nDo you want to continue y/n"
   input = gets.chomp
 
   retry_attempt = (input == 'y' || input == 'Y')
